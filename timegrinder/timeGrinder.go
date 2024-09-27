@@ -18,9 +18,6 @@ import (
 	"fmt"
 	"sync"
 	"time"
-
-	// Embed tzdata so that we don't rely on potentially broken timezone DBs on the host
-	_ "time/tzdata"
 )
 
 const (
